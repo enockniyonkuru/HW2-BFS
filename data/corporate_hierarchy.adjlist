@@ -1,0 +1,35 @@
+# Corporate Hierarchy Example
+# CEO and reporting structure
+CEO;VP_Engineering;VP_Sales;VP_Human_Resources
+VP_Engineering;Engineering_Manager1;Engineering_Manager2;Lead_Architect
+VP_Sales;Sales_Manager1;Sales_Manager2;Regional_Director
+VP_Human_Resources;HR_Manager;Recruiter1;Recruiter2
+Engineering_Manager1;Senior_Engineer1;Senior_Engineer2;Junior_Engineer1;Junior_Engineer2
+Engineering_Manager2;QA_Lead;QA_Engineer1;QA_Engineer2
+Lead_Architect;Principal_Engineer1;Principal_Engineer2
+Sales_Manager1;Account_Executive1;Account_Executive2;Sales_Representative1
+Sales_Manager2;Account_Executive3;Account_Executive4
+Regional_Director;Regional_Sales1;Regional_Sales2
+HR_Manager;Employee_Relations;Compensation
+Recruiter1;Sourcer1
+Recruiter2;Sourcer2
+Senior_Engineer1;
+Senior_Engineer2;
+Junior_Engineer1;
+Junior_Engineer2;
+QA_Lead;
+QA_Engineer1;
+QA_Engineer2;
+Principal_Engineer1;
+Principal_Engineer2;
+Account_Executive1;
+Account_Executive2;
+Sales_Representative1;
+Account_Executive3;
+Account_Executive4;
+Regional_Sales1;
+Regional_Sales2;
+Employee_Relations;
+Compensation;
+Sourcer1;
+Sourcer2;
