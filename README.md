@@ -51,6 +51,6 @@ Tests BFS traversal functionality using the tiny_network dataset. Verifies that 
 Tests BFS pathfinding functionality using the citation_network dataset. Verifies that BFS correctly finds shortest paths between connected nodes, returns None for unconnected nodes, and handles edge cases like non-existent nodes and same start/end nodes.
 
 ### `test_bfs_exception_invalid_file()`
-Tests that BFS properly raises an exception when the underlying graph structure is corrupted or invalid. Demonstrates error handling by attempting BFS on a corrupted graph.
+Tests that BFS properly raises an exception when loading a corrupted or invalid graph file. Demonstrates error handling with a corporate hierarchy example where invalid UTF-8 encoding or corrupted graph structure causes the Graph initialization to fail. Verifies that appropriate exceptions (AttributeError, TypeError, KeyError, ValueError, or UnicodeDecodeError) are raised when encountering corrupted data during graph loading.
 
 
